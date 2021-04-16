@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
   const grid = document.querySelector('.grid');
-  const doodler = document.createElement('div');
+  const doodler = document.createElement('div'); // add a doodler div
   const doodlerLeftSpace = 50;
   const doodlerBottomSpace = 150;
   const isGameOver = false;
   const platformCount = 7;
 
   function createDoodler() {
-    grid.appendChild(doodler);
-    doodler.classList.add('doodler'); // add doodler class from style.css
+    grid.appendChild(doodler); // add the doodler to the grid
+    doodler.classList.add('doodler'); // add a class 'doodler' to the doodler div
     doodler.style.left = `${doodlerLeftSpace}px`; // set starting posistion x-axis
     doodler.style.bottom = `${doodlerBottomSpace}px`; // set strating posistion y-axis
   }

@@ -1,8 +1,62 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Indie Flower;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+}
+
+h1 {
+  color: #62bd69;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 15px;
+  margin: 0;
+}
+
+h2 {
+  color: #62bd69;
+  font-size: 60px;
+  text-align: justify;
+  justify-content: center;
+  margin: 0;
+  display: inline;
+}
+
+#number {
+  margin-left: 15px;
+}
+
+.container {
+  width: 100%;
+  height: 900px;
+}
+
+.score {
+  width: 300px;
+  height: 70px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textShadow {
+  text-shadow: 2px 2px darkgreen;
+}
+
 .grid {
   width: 400px;
   height: 900px;
-  background-color: beige;
+  background-color: rgba(255, 255, 255, 0.6);
   position: relative;
+  margin: 0 auto;
 }
 
 .doodler {
@@ -14,8 +68,9 @@
 }
 
 .platfrom {
-  width: 80px;
+  width: 90px;
   height: 15px;
-  background-color: green;
+  background-image: url(plateau.png);
+  border-radius: 10px;
   position: absolute;
 }

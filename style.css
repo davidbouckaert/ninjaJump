@@ -60,10 +60,11 @@ h2 {
 }
 
 .doodler {
-  width: 60px;
-  height: 85px;
-  background-color: navy;
-  border-radius: 30%;
+  width: 100px;
+  height: 105px;
+  background-image: url(doodler.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   position: absolute;
 }
 
@@ -73,4 +74,5 @@ h2 {
   background-image: url(plateau.png);
   border-radius: 10px;
   position: absolute;
+  border: solid 1px #654321;
 }
